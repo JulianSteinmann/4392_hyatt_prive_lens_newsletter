@@ -1,15 +1,11 @@
-# humanstxt.org/
-# The humans responsible & technology colophon
-
 # TEAM
-
-    <name> -- <role> -- <twitter>
-
-# THANKS
-
-    <name>
+  Julian Steinmann -- Jackson Daly -- Developer -- steinmann.julian@gmail.com
 
 # TECHNOLOGY COLOPHON
+  CSS3, HTML5
+  Apache Server Configs, jQuery, Modernizr, Normalize.css, Bootstrap
 
-    CSS3, HTML5
-    Apache Server Configs, jQuery, Modernizr, Normalize.css
+# SETUP
+  ## LOCALHOST
+     – Run php Server:
+     – CD Folder in terminal and run "php -S localhost:8000"
