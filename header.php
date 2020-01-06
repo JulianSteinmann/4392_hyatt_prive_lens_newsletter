@@ -23,16 +23,16 @@
   <!--[if IE]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
-
+<div class="page-wrapper">
 
 <header>
   <div class="banner">
-    <img src="https://source.unsplash.com/random/1200x200" alt="Hyatt Privé Lense – Banner">
+    <img src="https://source.unsplash.com/random/1200x200" class="banner__img" alt="Hyatt Privé Lense – Banner">
     <div class="banner__overlay">
-      <!-- Logos here -->
+      <img src="https://source.unsplash.com/random/150x150" alt="Hyatt Privé Lense – Banner">
     </div>
   </div>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar--main navbar-expand-lg navbar-dark">
     <ul class="navbar-nav">
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -50,7 +50,6 @@
           </a>
         </li>
       </ul>
-    </div>
   </nav>
 
 
