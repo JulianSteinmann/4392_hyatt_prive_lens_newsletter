@@ -33,7 +33,12 @@
 
 <header>
   <div class="banner">
-    <img src="https://source.unsplash.com/random/1200x200" class="banner__img" alt="Hyatt Privé Lense – Banner">
+    <picture>
+      <source media="(min-width: 1200px)" srcset="img/banner-l.jpg">
+        <source media="(min-width: 700px)" srcset="img/banner.jpg">
+      <img src="img/banner-s.jpg" class="banner__img" alt="Hyatt Privé Lense – Banner">
+    </picture>
+
     <div class="banner__overlay">
       <img src="https://source.unsplash.com/random/150x150" alt="Hyatt Privé Lense – Banner">
     </div>
