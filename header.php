@@ -3,8 +3,8 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
-  <meta name="description" content="">
+  <title><?php echo $page_title ?></title>
+  <meta name="description" content="<?php echo $page_description ?>">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="manifest" href="site.webmanifest">
@@ -23,6 +23,8 @@
   <!-- Fontawesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
   <meta name="theme-color" content="#fafafa">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -39,25 +41,30 @@
       <img src="img/banner-s.jpg" class="banner__img" alt="Hyatt Privé Lense – Banner">
     </picture>
 
+
+
     <div class="banner__overlay">
-      <img src="https://source.unsplash.com/random/150x150" alt="Hyatt Privé Lense – Banner">
+      <img src="img/hyatt-prive-logo.png" class="banner__logo" alt="Hyatt Privé Lense – Banner">
     </div>
   </div>
   <nav class="navbar navbar--main navbar-expand-lg navbar-dark">
     <ul class="navbar-nav">
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <i class="fas fa-bars"></i> MENU
+            <i class="fas fa-bars open-icon"></i><i class="fas fa-times close-icon"></i> MENU
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
+            <a class="dropdown-item" href="#">Home</a>
+            <a class="dropdown-item" href="#">Welcome to Hyatt Privé Lens</a>
+            <a class="dropdown-item" href="#">Celebrating 40 Years of Park Hyatt</a>
+            <a class="dropdown-item" href="#">Alila & Sustainability</a>
+            <a class="dropdown-item" href="#">Six New and Noteworthy Hotels</a>
+            <a class="dropdown-item" href="#">Hit the Slopes at these Top Hyatt Ski Resorts</a>
           </div>
         </li>
         <li class="nav-item ">
           <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button">
-            <i class="fas fa-arrow-right"></i> NEXT
+            NEXT <i class="fas fa-arrow-right"></i>
           </a>
         </li>
       </ul>

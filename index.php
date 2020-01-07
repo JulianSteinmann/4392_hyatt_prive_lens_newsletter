@@ -1,5 +1,7 @@
-<?php include "header.php" ?>
-<main class="page--index">
+<?php
+$page_description = "Home - Hyatt Privé Lense";
+$page_title = "Home - Hyatt Privé Lense";
+include "header.php" ?>
 
 
 <main class="page--index">
