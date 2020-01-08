@@ -191,7 +191,7 @@ p {
   padding: 0;
 }
 
-.card {
+.card--home {
   padding: 40px;
   width: calc(100% - 60px);
   z-index: 2;
@@ -205,7 +205,7 @@ p {
 }
 
 @media screen and (min-width: 900px) {
-  .card {
+  .card--home {
     width: 44.8%;
     padding: 48px;
   }
@@ -215,7 +215,7 @@ p {
 }
 
 @media screen and (min-width: 1300px) {
-  .card {
+  .card--home {
     width: 35%;
     padding: 52px;
   }
@@ -232,7 +232,7 @@ p {
   object-fit: cover;
 }
 @media screen and (max-width: 900px) {
-  .card { margin-bottom: 16px;}
+  .card--home { margin-bottom: 16px;}
 }
 
 @media screen and (max-width: 900px) {
@@ -289,26 +289,26 @@ p {
     text-align: right;
   }
 
-  .card--top-right {
+  .card--home--top-right {
     position: relative;
     align-self: flex-end;
     top: -40px;
   }
 
-  .card--top-left {
+  .card--home--top-left {
     position: relative;
     align-self: flex-start;
     top: -40px;
     text-align: right;
   }
 
-  .card--bottom-right {
+  .card--home--bottom-right {
     position: relative;
     align-self: flex-end;
     top: 40px;
   }
 
-  .card--bottom-left {
+  .card--home--bottom-left {
     position: relative;
     align-self: flex-start;
     top: 40px;
