@@ -58,9 +58,12 @@ ul.navbar-nav {
   visibility: visible;
 
 }
+.nav-item.dropdown{
+  position: static;
+}
 @media screen and (max-width: 700px) {
   .dropdown .dropdown-menu {
-    width: 100vw;
+    width: 100%;
     min-height: unset;
     overflow: visible;
     min-height: fit-content;
@@ -134,18 +137,19 @@ ul.navbar-nav {
 }
 /*  HEADINGS ============================================================= */
 h1 {
-  font-weight: 600;
-  font-size: 48px;
+  font-weight: 300;
+  color: #002f50;
+  font-size: 54px;
 }
 h2 {
   font-weight: 300;
   color: #002f50;
-  font-size: 40px;
+  font-size: 37px;
 }
 h3{
   font-size: 32px;
 }
-h3{
+h4{
   font-size: 24px;
 }
 h5 {
@@ -154,6 +158,21 @@ h5 {
 h3, h4, h5, h6 {
   font-weight: 400;
   color: #3d5466;
+}
+@media screen and (max-width: 1300px) {
+  h1 { font-size: 44px; }
+  h2 { font-size: 30px; }
+  h3{ font-size: 26px; }
+  h4 { font-size: 22px; }
+  h5 { font-size: 14px; }
+}
+
+@media screen and (max-width: 900px) {
+  h1 { font-size: 36px; }
+  h2 { font-size: 25px; }
+  h3{ font-size: 20px; }
+  h4 { font-size: 17px; }
+  h5 { font-size: 14px; }
 }
 /*  Links ================================================================ */
 
@@ -190,7 +209,12 @@ p {
   /* background: #eee; */
   padding: 0;
 }
+.card--content {
+  padding: 40px;
+  margin: -100px 30px 0;
+  background-color: #ebebeb;
 
+}
 .card--home {
   padding: 40px;
   width: calc(100% - 60px);
@@ -213,7 +237,7 @@ p {
     padding: 40px;
   }
 }
-
+.container--content { padding-top: 0;}
 @media screen and (min-width: 1300px) {
   .card--home {
     width: 35%;
