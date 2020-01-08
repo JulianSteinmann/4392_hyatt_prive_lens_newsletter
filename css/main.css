@@ -235,6 +235,15 @@ p {
   .card { margin-bottom: 16px;}
 }
 
+@media screen and (max-width: 900px) {
+  .bg-image {
+    width: 100%;
+  }
+
+  .bg-image img {
+    width: 100%;
+  }
+}
 @media screen and (min-width: 900px) {
 
   .bg-image {
@@ -251,6 +260,8 @@ p {
     max-width: 70%;
     margin: 0 auto;
   }
+
+
 
   .bg-image--top-right {
     position: relative;
