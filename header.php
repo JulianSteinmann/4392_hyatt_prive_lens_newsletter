@@ -44,7 +44,9 @@
 
 
     <div class="banner__overlay">
-      <img src="img/hyatt-prive-logo.png" class="banner__logo" alt="Hyatt Privé Lense – Banner">
+      <a href="index.php">
+        <img src="img/hyatt-prive-logo.png" class="banner__logo" alt="Hyatt Privé Lense – Banner">
+      </a>
     </div>
   </div>
   <nav class="navbar navbar--main navbar-expand-lg navbar-dark">
@@ -54,16 +56,16 @@
             <i class="fas fa-bars open-icon"></i><i class="fas fa-times close-icon"></i> MENU
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#">Home</a>
-            <a class="dropdown-item" href="#">Welcome to Hyatt Privé Lens</a>
-            <a class="dropdown-item" href="#">Celebrating 40 Years of Park Hyatt</a>
-            <a class="dropdown-item" href="#">Alila & Sustainability</a>
-            <a class="dropdown-item" href="#">Six New and Noteworthy Hotels</a>
-            <a class="dropdown-item" href="#">Hit the Slopes at these Top Hyatt Ski Resorts</a>
+            <a class="dropdown-item" href="index.php">Home</a>
+            <a class="dropdown-item" href="welcome.php">Welcome to Hyatt Privé Lens</a>
+            <a class="dropdown-item" href="celebrate_park_hyatt.php">Celebrating 40 Years of Park Hyatt</a>
+            <a class="dropdown-item" href="alila_sustainability.php">Alila & Sustainability</a>
+            <a class="dropdown-item" href="new_hotels.php">Six New and Noteworthy Hotels</a>
+            <a class="dropdown-item" href="hyatt_ski_resorts.php">Hit the Slopes at these Top Hyatt Ski Resorts</a>
           </div>
         </li>
         <li class="nav-item ">
-          <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button">
+          <a class="nav-link" href="<?php echo $next_page ?>" id="navbarDropdownMenuLink" role="button">
             NEXT <i class="fas fa-arrow-right"></i>
           </a>
         </li>

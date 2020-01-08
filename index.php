@@ -1,6 +1,7 @@
 <?php
 $page_description = "Home - Hyatt Privé Lense";
 $page_title = "Home - Hyatt Privé Lense";
+$next_page = "welcome.php";
 include "header.php" ?>
 
 
