@@ -9,7 +9,7 @@ include "header.php" ?>
   <div class="container">
 
     <div class="bg-image bg-image--top-left">
-      <img src="img/PH_P048_Resort_Celebration.jpg" alt="">
+      <img src="img/home_ph_p048_resort_celebration.jpg" alt="">
     </div>
     <div class="card--home card--home--bottom-right">
       <h5>INTRODUCTION</h5>
@@ -22,7 +22,7 @@ include "header.php" ?>
     </div>
 
     <div class="bg-image bg-image--top-right">
-      <img src="img/NYCPH_P536_Carnegie_Suite.jpg" alt="">
+      <img src="img/home_nycph_p536_carnegie_suite.jpg" alt="">
     </div>
     <div class="card--home card--home--bottom-left">
       <h5>A BRAND STORY</h5>
@@ -36,7 +36,7 @@ include "header.php" ?>
     </div>
 
     <div class="bg-image bg-image--top-left">
-      <img src="img/DPSAU_P001_Villa_Exterior.jpg" alt="">
+      <img src="img/home_dpsau_p001_villa_exterior.jpg" alt="">
     </div>
     <div class="card--home card--home--bottom-right">
       <h5>AN EXPERIENCE STORY</h5>
@@ -50,7 +50,7 @@ include "header.php" ?>
     </div>
 
     <div class="bg-image bg-image--bottom-right">
-      <img src="img/LHRUB_P002_Exterior_Evening.jpg" alt="">
+      <img src="img/home_lhrub_p002_exterior_evening.jpg" alt="">
     </div>
     <div class="card--home card--home--bottom-left">
       <h5>NEW OPENINGS STORY</h5>
@@ -67,7 +67,7 @@ include "header.php" ?>
     </div>
 
     <div class="bg-image bg-image--left-bottom">
-      <img src="img/shutterstock_1187224183.jpg" alt="">
+      <img src="img/home_skiing.jpg" alt="">
     </div>
     <div class="card--home card--home--top-right">
       <h5>NEW OPENINGS STORY</h5>
