@@ -18,7 +18,7 @@ include "header.php" ?>
         Designed For You, By You<br>
         In This Volume
       </p>
-      <a href="#">GET STARTED</a>
+      <a href="welcome.php">GET STARTED</a>
     </div>
 
     <div class="bg-image bg-image--top-right">
@@ -32,7 +32,7 @@ include "header.php" ?>
         Iconic Art, Architecture & Design<br>
         Masters of Food & Wine<br>
         What’s Next</p>
-      <a href="#">READ MORE</a>
+      <a href="celebrate_park_hyatt.php">READ MORE</a>
     </div>
 
     <div class="bg-image bg-image--top-left">
@@ -46,7 +46,7 @@ include "header.php" ?>
         Caring For the Island of the Gods<br>
         Building Greener
       </p>
-      <a href="#">EXPERIENCE MORE</a>
+      <a href="alila_sustainability.php">EXPERIENCE MORE</a>
     </div>
 
     <div class="bg-image bg-image--bottom-right">
@@ -63,7 +63,7 @@ include "header.php" ?>
         Park Hyatt Auckland<br>
         Park Hyatt Kyoto
       </p>
-      <a href="#">EXPLORE THE WORLD</a>
+      <a href="new_hotels.php">EXPLORE THE WORLD</a>
     </div>
 
     <div class="bg-image bg-image--left-bottom">
@@ -78,7 +78,7 @@ include "header.php" ?>
         High-altitude Alpine adventures await at La Rosière<br>
         Perfect powder and Michelin-starred dining in Niseko
       </p>
-      <a href="#">EXPERIENCE MORE</a>
+      <a href="hyatt_ski_resorts.php">EXPERIENCE MORE</a>
     </div>
 
   </div>
