@@ -58,7 +58,7 @@
   // do nothing
   } else {
   var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-XXXXXXXX-X']);
+  _gaq.push(['_setAccount', 'UA-155853964-1']);
   _gaq.push(['_trackPageview']);
 
   (function() {
@@ -123,5 +123,8 @@
       </ul>
   </nav>
 
+<div id="alert-banner">
+
+</div>
 
 </header>

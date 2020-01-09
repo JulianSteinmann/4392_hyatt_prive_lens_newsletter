@@ -5,6 +5,9 @@
   <section class="helpline">
     <h4>Need Reservation Support?</h4>
     <button type="button" class="call-us-button">Call us</button>
+        <a class="footer__next-page" href="<?php echo $next_page ?>" role="button">
+            NEXT <i class="fas fa-arrow-right"></i>
+        </a>
   </section>
   <div data-bookends="legal-footer">
     <div class="hbe hbe-legal hbe-legal_theme-carbon" lang="en-US">
@@ -33,12 +36,6 @@
   <script src="js/main.js"></script>
 
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
 
 </html>
