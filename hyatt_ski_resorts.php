@@ -2,7 +2,7 @@
 $page_title = "Hyatt Ski Resorts - Hyatt Privé Lense";
 $page_description = "Is it the thrill of racing down a winding ski run or catching a moment of serenity atop an Alpine peak? Many are simply in it for the après—pulling off those snow boots and sipping a steaming mug of mulled wine beside a cozy chalet fire.";
 $next_page = "index.php";
-include "header.php" ?>
+include "template_parts/header.php" ?>
 
 <picture>
   <source media="(min-width: 1500px)" srcset="img/ski_resorts_shutterstock_1187224183_xl.jpg">
@@ -59,4 +59,4 @@ include "header.php" ?>
   </div>
 </main>
 
-<?php include "footer.php" ?>
+<?php include "template_parts/footer.php" ?>

@@ -2,7 +2,7 @@
 $page_description = "Home - Hyatt Privé Lense";
 $page_title = "Home - Hyatt Privé Lense";
 $next_page = "welcome.php";
-include "header.php" ?>
+include "template_parts/header.php" ?>
 
 
 <main class="page--index">
@@ -84,4 +84,4 @@ include "header.php" ?>
   </div>
 </main>
 
-<?php include "footer.php" ?>
+<?php include "template_parts/footer.php" ?>

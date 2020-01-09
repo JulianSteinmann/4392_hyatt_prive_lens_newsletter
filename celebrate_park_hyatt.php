@@ -2,7 +2,7 @@
 $page_description = "Welcome - Hyatt Privé Lense";
 $page_title = "Welcome - Hyatt Privé Lense";
 $next_page = "alila_sustainability.php";
-include "header.php" ?>
+include "template_parts/header.php" ?>
 
 <picture>
   <source media="(min-width: 1500px)" srcset="img/celebrate_nycph_p616_manhattan_sky_suite_master_bedroom_xl.jpg">
@@ -58,4 +58,4 @@ include "header.php" ?>
   </div>
 </main>
 
-<?php include "footer.php" ?>
+<?php include "template_parts/footer.php" ?>

@@ -2,7 +2,7 @@
 $page_description = "Welcome - Hyatt Privé Lense";
 $page_title = "Welcome - Hyatt Privé Lense";
 $next_page = "celebrate_park_hyatt.php";
-include "header.php" ?>
+include "template_parts/header.php" ?>
 
 
 <picture>
@@ -61,4 +61,4 @@ include "header.php" ?>
   </div>
 </main>
 
-<?php include "footer.php" ?>
+<?php include "template_parts/footer.php" ?>

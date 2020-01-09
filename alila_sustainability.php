@@ -2,7 +2,7 @@
 $page_description = "Welcome - Hyatt Privé Lense";
 $page_title = "Welcome - Hyatt Privé Lense";
 $next_page = "new_hotels.php";
-include "header.php" ?>
+include "template_parts/header.php" ?>
 
 <picture>
   <source media="(min-width: 1500px)" srcset="img/alila_dpsau_p001_infinity_pool_xl.jpg">
@@ -52,4 +52,4 @@ include "header.php" ?>
   </div>
 </main>
 
-<?php include "footer.php" ?>
+<?php include "template_parts/footer.php" ?>
