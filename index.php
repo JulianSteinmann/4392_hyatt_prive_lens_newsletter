@@ -70,7 +70,7 @@ include "template_parts/header.php" ?>
       <img src="img/home_skiing.jpg" alt="">
     </div>
     <div class="card--home card--home--top-right">
-      <h5>NEW OPENINGS STORY</h5>
+      <h5>A DESTINATION STORY</h5>
       <h2>Hit the Slopes at these Top Hyatt Ski Resorts</h2>
       <p>
         Ski-in, ski-out, and brave the Back Bowls in Vail<br>
