@@ -4,6 +4,17 @@ $page_title = "Welcome - Hyatt Privé Lense";
 $next_page = "hyatt_ski_resorts.php";
 include "template_parts/header.php" ?>
 
+<?php // Helper function to change text once hotels are open
+function is_hotel_open($opening_date, $text_closed, $text_open) {
+  $date_now = date("Y-m-d"); // this format is string comparable
+  if ($date_now > $opening_date) {
+    echo $text_open;
+  }else{
+    echo $text_closed;
+  }
+}
+?>
+
 <picture>
   <source media="(min-width: 1500px)" srcset="img/new_hotels_lhrub_p002_exterior_evening_xl.jpg">
   <source media="(min-width: 1200px)" srcset="img/new_hotels_lhrub_p002_exterior_evening_l.jpg">
@@ -25,7 +36,7 @@ include "template_parts/header.php" ?>
     </div>
     <section class="content-section content-section--right bg-image--content--below-left">
       <h2>Andaz Dubai The Palm</h2>
-      <p>See those gleaming towers rising over The Palm Jumeirah? Andaz has arrived in Dubai at last. Located on the iconic, tree-shaped Palm Jumeirah island, <strong>Andaz Dubai The Palm</strong> channels the colors and energy of Arabia throughout its 217 guest rooms and 115 serviced apartments. Travelers immerse themselves in Middle Eastern-inspired flavors and spices at one of five distinct dining experiences while reveling in pop-up art exhibitions featuring local talent. On the 14th floor, true tranquility awaits at the Ora boutique spa. <strong>Andaz Dubai The Palm is accepting bookings from December 1, 2019.</strong></p>
+      <p>See those gleaming towers rising over The Palm Jumeirah? Andaz has arrived in Dubai at last. Located on the iconic, tree-shaped Palm Jumeirah island, <strong>Andaz Dubai The Palm</strong> channels the colors and energy of Arabia throughout its 217 guest rooms and 115 serviced apartments. Travelers immerse themselves in Middle Eastern-inspired flavors and spices at one of five distinct dining experiences while reveling in pop-up art exhibitions featuring local talent. On the 14th floor, true tranquility awaits at the Ora boutique spa. <strong>Andaz Dubai The Palmis is now open.</strong></p>
     </section>
 
     <div class="bg-image--content bg-image--content--bottom-left">
@@ -33,7 +44,7 @@ include "template_parts/header.php" ?>
     </div>
     <section class="content-section content-section--middle">
       <h2>Andaz Seoul Gangnam</h2>
-      <p>Debuting earlier this year, <strong>Andaz Seoul Gangnam</strong> marks the fifth Hyatt-branded hotel in South Korea and the first Andaz. The hotel is right at home within the Gangnam district’s Apgujeong neighborhood, known for its high-end shopping and K-Pop studios. The style and sounds of this vibrant corner of the capital are celebrated in every design detail, drawing inspiration from bojagi, traditional Korean patchwork weaving art. Meanwhile, Seoul’s immersive alleyway eateries are elevated to surprising heights at Jogakbo, an exciting multi-concept space for dining and drinking. <strong>Andaz Seoul Gangnam is now open.</strong></p>
+      <p>Debuting in 2019, <strong>Andaz Seoul Gangnam</strong> marks the fifth Hyatt-branded hotel in South Korea and the first Andaz. The hotel is right at home within the Gangnam district’s Apgujeong neighborhood, known for its high-end shopping and K-Pop studios. The style and sounds of this vibrant corner of the capital are celebrated in every design detail, drawing inspiration from bojagi, traditional Korean patchwork weaving art. Meanwhile, Seoul’s immersive alleyway eateries are elevated to surprising heights at Jogakbo, an exciting multi-concept space for dining and drinking. <strong>Andaz Seoul Gangnam is now open.</strong></p>
     </section>
 
     <section class="content-section content-section--right">
@@ -46,12 +57,13 @@ include "template_parts/header.php" ?>
     </div>
     <section class="content-section content-section--middle">
       <h2>Thompson Washington D.C.</h2>
-      <p>Designed to be a gathering place for Washingtonians and visitors alike, <strong>Thompson Washington D.C.</strong> is set to open early in early 2020. The 225-room lifestyle hotel is steps from the Anacostia River and poised to become the social anchor of its trendy Navy Yards neighborhood. A rooftop bar and multiple restaurants on-site invite spirited conversation, pairing perfectly with a stroll along the Riverwalk Trail or an exciting baseball game at nearby Nationals Park. Its design pays homage to the industrial and maritime history of the area, featuring elements of naval style as well as copper and metalwork. <strong>Thompson Washington D.C. is accepting bookings from March 1, 2020.</strong></p>
+      <p>Designed to be a gathering place for Washingtonians and visitors alike, <strong>Thompson Washington D.C.</strong> <?php is_hotel_open('2020-03-01', 'is set to open in early 2020.', 'opened in early 2020.') ?> The 225-room lifestyle hotel is steps from the Anacostia River and poised to become the social anchor of its trendy Navy Yards neighborhood. A rooftop bar and multiple restaurants on-site invite spirited conversation, pairing perfectly with a stroll along the Riverwalk Trail or an exciting baseball game at nearby Nationals Park. Its design pays homage to the industrial and maritime history of the area, featuring elements of naval style as well as copper and metalwork. <strong>Thompson Washington D.C. <?php is_hotel_open('2020-03-01', 'is accepting bookings from March 1, 2020.', 'is now open.') ?></strong></p>
     </section>
 
     <section class="content-section content-section--left bg-image--content--below-right">
       <h2>Park Hyatt Auckland</h2>
-      <p>Kia ora, New Zealand! <strong>Park Hyatt Auckland</strong> opens its doors early next year, marking Hyatt’s return to New Zealand. Poised on the water’s edge in stylish Wynyard Quarter, this modern hotel offers sweeping views over Waitematā Harbour—an enviable position ahead of the 2021 America’s Cup. Also overlooking the water is a 25-meter infinity pool, ideal for a refreshing dip after a luxurious spa treatment or afternoon spent lounging on the sun deck. Residential-inspired guest rooms and suites are elegantly appointed in rich woods, marble, and brass finishes, exuding luxury around every corner. In true Park Hyatt fashion, an elevated culinary experience awaits, featuring premium produce and in-season ingredients from around New Zealand. <strong>Park Hyatt Auckland is accepting bookings from March 1, 2020.</strong></p>
+      <p>Kia ora, New Zealand! <strong>Park Hyatt Auckland</strong> <?php is_hotel_open('2020-03-01', 'opens', 'opened') ?> its doors in early 2020, marking Hyatt’s return to New Zealand. Poised on the water’s edge in stylish Wynyard Quarter, this modern hotel offers sweeping views over Waitematā Harbour—an enviable position ahead of the 2021 America’s Cup. Also overlooking the water is a 25-meter infinity pool, ideal for a refreshing dip after a luxurious spa treatment or afternoon spent lounging on the sun deck. Residential-inspired guest rooms and suites are elegantly appointed in rich woods, marble, and brass finishes, exuding luxury around every corner. In true Park Hyatt fashion, an elevated culinary experience awaits, featuring premium produce and in-season ingredients from around New Zealand. <strong>Park Hyatt Auckland <?php is_hotel_open('2020-03-01', 'is accepting bookings from March 1, 2020.', 'is now open.') ?></strong></p>
+
     </section>
 
     <div class="bg-image--content bg-image--content--bottom-left">

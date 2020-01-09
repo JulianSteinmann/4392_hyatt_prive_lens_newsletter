@@ -18,7 +18,7 @@ include "template_parts/header.php" ?>
     <section class="content-section">
       <h5>VOLUME ONE</h5>
       <h1>Celebrating 40 Years of Park Hyatt</h1>
-      <p>We are delighted to celebrate 40 years of our Park Hyatt brand – four decades of exceptional service, renowned art and architecture, rare culinary experiences, and unexpected pleasures. Discerning travelers know that true luxury is personal—whether it’s an animated discussion of modern art over an aged, single-malt scotch or an intimate lesson in delicate Japanese calligraphy. Park Hyatt hotels specialize in these sophisticated connections.</p>
+      <p>We are delighted to celebrate 40 years of our Park Hyatt brand -- four decade of exceptional service, renowned art and architecture, rare culinary experiences, and unexpected pleasures. Discerning travelers know that true luxury is personal—whether it’s an animated discussion of modern art over an aged, single-malt scotch or an intimate lesson in delicate Japanese calligraphy. Park Hyatt hotels specialize in these sophisticated connections.</p>
     </section>
 
     <div class="bg-image--content bg-image--content--top-right">
@@ -33,8 +33,8 @@ include "template_parts/header.php" ?>
     <section class="content-section content-section--left">
       <h2>Iconic Art, Architecture & Design</h2>
       <p>World-class design has remained at the heart of the Park Hyatt brand, from the legendary Chicago property that started it all to development spanning from Marrakech to Mexico City. Each hotel draws from its location to create a singularly unique experience through stunning architecture, fine furnishings, and expertly curated art collections.</p>
-      <p>Long before Lost In Translation brought the hotel film fame, <strong>Park Hyatt Tokyo</strong> debuted at the top of a 52-story Shinjuku tower and redefined the meaning of luxury hospitality in Japan. In the Austrian capital, a century-old bank transformed into a masterpiece of opulent, contemporary design at <strong>Park Hyatt Vienna</strong>.</p>
-      <p>Across the pond in Midtown Manhattan, a multi-million dollar art collection set a new standard of luxury at P<strong>ark Hyatt New York</strong>. Here, the Manhattan Sky Suite, New York City’s highest hotel suite has recently debuted, overlooking unmatched views of Central Park and the city skyline from the 59th floor. In true Park Hyatt fashion, the Manhattan Sky Suite offers worldly guests an elevated luxury NYC experience, with complimentary helicopter airport transfer, dedicated butler service, a personal chef, and much more.</p>
+      <p>Long before "Lost In Translation" brought the hotel film fame, <strong>Park Hyatt Tokyo</strong> debuted at the top of a 52-story Shinjuku tower and redefined the meaning of luxury hospitality in Japan. In the Austrian capital, a century-old bank transformed into a masterpiece of opulent, contemporary design at Park <strong>Hyatt Vienna</strong>.</p>
+      <p>Across the pond in Midtown Manhattan, a multi-million dollar art collection set a new standard of luxury at <strong>Park Hyatt New York</strong>. Here, the Manhattan Sky Suite, New York City’s highest hotel suite, has recently debuted overlooking unmatched views of Central Park and the city skyline from the 59th floor. In true Park Hyatt fashion, the Manhattan Sky Suite offers worldly guests an elevated luxury NYC experience, with complimentary helicopter airport transfer, dedicated butler service, a personal chef, and much more.</p>
   </section>
 
   <div class="bg-image--content bg-image--content--top-left">
@@ -52,7 +52,7 @@ include "template_parts/header.php" ?>
 <section class="content-section content-section--middle">
   <h2>What’s Next</h2>
   <p>Ever attentive to the desires of discerning global travelers, 2020 will see exciting additions to the brand’s already-attractive portfolio.</p>
-  <p><strong>Park Hyatt Toronto</strong> reopens in 2020 after a stunning, top-to-bottom renovation. The brand continues its tradition of unparalleled luxury in Japan, with the additions of <strong>Park Hyatt Niseko Hanazono</strong> and <strong>Park Hyatt Kyoto</strong>. <strong>Park Hyatt Doha</strong> debuts this December and the opening of <strong>Park Hyatt Auckland</strong> marks the brand’s entry into New Zealand in early 2020.</p>
+  <p><strong>Park Hyatt Toronto</strong> reopens in 2020 after a stunning, top-to-bottom renovation. The brand continues its tradition of unparalleled luxury in Japan, with the additions of <strong>Park Hyatt Niseko Hanazono</strong> and <strong>Park Hyatt Kyoto</strong>. <strong>Park Hyatt Doha</strong> debuted in December and the opening of <strong>Park Hyatt Auckland</strong> marks the brand’s entry into New Zealand in early 2020.</p>
   <p>As the definition of luxury evolves, Park Hyatt will remain a leader in rare and renowned experiences. We thank you for joining us in celebrating the 40th anniversary of this iconic brand.</p>
 </section>
   </div>
