@@ -38,16 +38,16 @@ include "template_parts/header.php" ?>
       <p>No sun? No problem. If the snow’s falling, guests can avoid the winter chill and enter the hotel’s heated pool from inside. Exquisite culinary offerings can also be found within the resort. The menu at Lone Eagle Grille is carefully curated with local flavors of the high-Sierra, like fresh seafood, game meats, and creative vegetarian dishes.</p>
   </section>
 
+  <div class="bg-image--content bg-image--content--bottom-left">
+    <img src="img/ski_resorts_cmfct_p059_resort_view.jpg" alt="">
+  </div>
   <section class="content-section content-section--middle">
     <h2>High-altitude Alpine adventures await at La Rosière</h2>
     <p>The French Alps are calling—<strong>Hyatt Centric La Rosière</strong>H is now part of Hyatt Privé! C’est bon. Or should we say, va bene? La Rosière is the ideal base camp for border-free skiing between France and Italy. Since a breakfast pain au chocolat pairs well with a satisfying pasta lunch, simply ski right across the Petit Saint-Bernard Pass into La Thuile, Italy.</p>
     <p>When it comes to high-altitude adrenaline, La Rosière has guests covered. From heli-skiing to night sledging, this ski-in, ski-out resort boasts more than enough Alpine adventures to get the blood pumping. We’ll let you in on another secret: The sunny terrace at H40 is the place to après-ski and be seen. La Rosière receives as many hours of daily sunshine as St. Tropez and Cannes.</p>
   </section>
 
-  <div class="bg-image--content bg-image--content--top-right">
-    <img src="img/ski_resorts_cmfct_p059_resort_view.jpg" alt="">
-  </div>
-  <section class="content-section content-section--left">
+  <section class="content-section content-section--right bg-image--content--below-left">
     <h2>Perfect powder and Michelin-starred dining in Niseko</h2>
     <p>Now accepting bookings from January 2020, <strong>Park Hyatt Niseko Hanazono</strong> is an unrivaled luxury mountain resort in the “St. Moritz of Japan.” Niseko, located on Japan’s northernmost island, is favored by the global jet set thanks to heavy snowfall, hot springs, and haute cuisine. The world’s freshest powder makes this a veritable winter wonderland, featuring over 70 runs and off-piste slopes spanning from Mount Annapuri to Hanazono.</p>
     <p>After a long day spent hitting the slopes, a soothing, traditional Japanese onsen spa bath beckons. Worked up an appetite? Rest assured, even more indulgent delights await. The resort’s exquisite culinary experiences include 3-starred Michelin Chef Nakamichi’s Moliere Montagne and sushi by Michelin-starred sushi Chef Mitsukawa.</p>
