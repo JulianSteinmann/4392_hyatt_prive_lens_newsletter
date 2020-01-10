@@ -539,3 +539,31 @@ a.cc-cookie-decline { color: #ccc; border: 1px solid #ccc; }
 @media screen and (max-width: 480px) {
 .cc-cookies { position: relative; float: left; }
 }
+
+
+
+
+
+
+
+
+
+
+
+@keyframes fade-in {
+    from {opacity: 0; }
+    to {opacity: 1;}
+}
+@keyframes fade-up {
+    from {opacity: 0; transform: translateY(600px) scale(.7); }
+    to {opacity: 1;}
+}
+.banner__img {
+  animation: fade-in 2s ease-out;
+}
+.fade-in-element.bg-image--content, .fade-in-element.bg-image {
+  animation: fade-up 2.5s ease-out;
+}
+.fade-in-element {
+  animation: fade-up 1.4s ease-out;
+}

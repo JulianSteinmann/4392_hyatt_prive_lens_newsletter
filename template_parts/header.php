@@ -51,7 +51,6 @@
 
 <script src="js/jquery.cookiecuttr.js"></script>
 
-<link rel="stylesheet" href="css/cookiecuttr.css">
 
 <script type="text/javascript">
   if (jQuery.cookie('cc_cookie_decline') == "cc_cookie_decline") {

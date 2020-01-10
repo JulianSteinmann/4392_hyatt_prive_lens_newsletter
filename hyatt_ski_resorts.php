@@ -13,7 +13,7 @@ include "template_parts/header.php" ?>
 <main class="page--content">
   <div class="container container--content">
 
-  <div class="card--content">
+  <div class="card--content fade-contents">
     <section class="content-section">
       <h5>A DESTINATION STORY</h5>
       <h1>Hit the Slopes at These Top Hyatt Ski Resorts</h1>

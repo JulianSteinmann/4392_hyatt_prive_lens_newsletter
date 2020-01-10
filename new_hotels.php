@@ -24,7 +24,7 @@ function is_hotel_open($opening_date, $text_closed, $text_open) {
 <main class="page--content">
   <div class="container container--content">
 
-  <div class="card--content ">
+  <div class="card--content fade-contents">
 
     <section class="content-section">
       <h5>NEW OPENINGS STORY</h5>

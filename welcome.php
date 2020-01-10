@@ -14,7 +14,7 @@ include "template_parts/header.php" ?>
 <main class="page--content">
   <div class="container container--content">
 
-  <div class="card--content">
+  <div class="card--content fade-contents">
     <section class="content-section">
       <h5>VOLUME ONE</h5>
       <h1>Welcome to Hyatt Privé Lens</h1>

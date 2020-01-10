@@ -6,7 +6,7 @@ include "template_parts/header.php" ?>
 
 
 <main class="page--index">
-  <div class="container">
+  <div class="container fade-contents">
 
     <div class="bg-image bg-image--top-left">
       <img src="img/home_ph_p048_resort_celebration.jpg" alt="">
