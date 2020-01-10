@@ -1,5 +1,5 @@
 <?php
-$page_title = "Hyatt Ski Resorts - Hyatt Privé Lense";
+$page_title = "Hyatt Ski Resorts - Hyatt Privé Lens";
 $page_description = "Is it the thrill of racing down a winding ski run or catching a moment of serenity atop an Alpine peak? Many are simply in it for the après—pulling off those snow boots and sipping a steaming mug of mulled wine beside a cozy chalet fire.";
 $next_page = "index.php";
 include "template_parts/header.php" ?>
@@ -8,7 +8,7 @@ include "template_parts/header.php" ?>
   <source media="(min-width: 1500px)" srcset="img/ski_resorts_shutterstock_1187224183_xl.jpg">
   <source media="(min-width: 1200px)" srcset="img/ski_resorts_shutterstock_1187224183_l.jpg">
   <source media="(min-width: 900px)" srcset="img/ski_resorts_shutterstock_1187224183_m.jpg">
-  <img src="img/ski_resorts_shutterstock_1187224183_s.jpg" class="banner__img" width="100%" alt="Hyatt Privé Lense – Banner">
+  <img src="img/ski_resorts_shutterstock_1187224183_s.jpg" class="banner__img" width="100%" alt="Hyatt Privé Lens – Banner">
 </picture>
 <main class="page--content">
   <div class="container container--content">

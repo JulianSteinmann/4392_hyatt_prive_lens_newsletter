@@ -1,5 +1,5 @@
 <?php
-$page_title = "Hyatt Privé Lense";
+$page_title = "Hyatt Privé Lens";
 $page_description = "Welcome to Hyatt Privé Lens";
 $next_page = "welcome.php";
 include "template_parts/header.php" ?>

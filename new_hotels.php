@@ -1,5 +1,5 @@
 <?php
-$page_title = "New Openings - Hyatt Privé Lense";
+$page_title = "New Openings - Hyatt Privé Lens";
 $page_description = "What do cosmopolitan capitals, trendy waterfront neighborhoods, and the world’s most iconic man-made island have in common? All are home to some of Hyatt’s most exciting new hotels worldwide.";
 $next_page = "hyatt_ski_resorts.php";
 include "template_parts/header.php" ?>
@@ -19,7 +19,7 @@ function is_hotel_open($opening_date, $text_closed, $text_open) {
   <source media="(min-width: 1500px)" srcset="img/new_hotels_lhrub_p002_exterior_evening_xl.jpg">
   <source media="(min-width: 1200px)" srcset="img/new_hotels_lhrub_p002_exterior_evening_l.jpg">
   <source media="(min-width: 900px)" srcset="img/new_hotels_lhrub_p002_exterior_evening_m.jpg">
-  <img src="img/new_hotels_lhrub_p002_exterior_evening_s.jpg" class="banner__img" width="100%" alt="Hyatt Privé Lense – Banner">
+  <img src="img/new_hotels_lhrub_p002_exterior_evening_s.jpg" class="banner__img" width="100%" alt="Hyatt Privé Lens – Banner">
 </picture>
 <main class="page--content">
   <div class="container container--content">

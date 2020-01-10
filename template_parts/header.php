@@ -88,14 +88,14 @@
     <picture>
       <source media="(min-width: 1200px)" srcset="img/banner-l.jpg">
         <source media="(min-width: 700px)" srcset="img/banner.jpg">
-      <img src="img/banner-s.jpg" class="banner__img" alt="Hyatt Privé Lense – Banner">
+      <img src="img/banner-s.jpg" class="banner__img" alt="Hyatt Privé Lens – Banner">
     </picture>
 
 
 
     <div class="banner__overlay">
       <a href="index.php">
-        <img src="img/hyatt-prive-logo.png" class="banner__logo" alt="Hyatt Privé Lense – Banner">
+        <img src="img/hyatt-prive-logo.png" class="banner__logo" alt="Hyatt Privé Lens – Banner">
       </a>
     </div>
   </div>

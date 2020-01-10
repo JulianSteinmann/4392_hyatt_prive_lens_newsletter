@@ -1,5 +1,5 @@
 <?php
-$page_title = "40 Years Park Hyatt - Hyatt Privé Lense";
+$page_title = "40 Years Park Hyatt - Hyatt Privé Lens";
 $page_description = "We are delighted to celebrate 40 years of our Park Hyatt brand -- four decade of exceptional service, renowned art and architecture, rare culinary experiences, and unexpected pleasures.";
 $next_page = "alila_sustainability.php";
 include "template_parts/header.php" ?>
@@ -8,7 +8,7 @@ include "template_parts/header.php" ?>
   <source media="(min-width: 1500px)" srcset="img/celebrate_nycph_p616_manhattan_sky_suite_master_bedroom_xl.jpg">
   <source media="(min-width: 1200px)" srcset="img/celebrate_nycph_p616_manhattan_sky_suite_master_bedroom_l.jpg">
   <source media="(min-width: 900px)" srcset="img/celebrate_nycph_p616_manhattan_sky_suite_master_bedroom_m.jpg">
-  <img src="img/celebrate_nycph_p616_manhattan_sky_suite_master_bedroom_s.jpg" class="banner__img" width="100%" alt="Hyatt Privé Lense – Banner">
+  <img src="img/celebrate_nycph_p616_manhattan_sky_suite_master_bedroom_s.jpg" class="banner__img" width="100%" alt="Hyatt Privé Lens – Banner">
 </picture>
 <main class="page--content">
   <div class="container container--content">

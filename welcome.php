@@ -1,5 +1,5 @@
 <?php
-$page_title = "Welcome - Hyatt Privé Lense";
+$page_title = "Welcome - Hyatt Privé Lens";
 $page_description = "Welcome to Hyatt Privé Lens, a new online journal curated exclusively for you, the premium travel designer. Within these digital 'pages' you’ll find a few of the latest stories from our brands and colleagues around the world.";
 $next_page = "celebrate_park_hyatt.php";
 include "template_parts/header.php" ?>
@@ -9,7 +9,7 @@ include "template_parts/header.php" ?>
   <source media="(min-width: 1500px)" srcset="img/welcome_ph_p052_resort_celebration_xl.jpg">
   <source media="(min-width: 1200px)" srcset="img/welcome_ph_p052_resort_celebration_l.jpg">
   <source media="(min-width: 900px)" srcset="img/welcome_ph_p052_resort_celebration_m.jpg">
-  <img src="img/welcome_ph_p052_resort_celebration_s.jpg" class="banner__img" width="100%" alt="Hyatt Privé Lense – Banner">
+  <img src="img/welcome_ph_p052_resort_celebration_s.jpg" class="banner__img" width="100%" alt="Hyatt Privé Lens – Banner">
 </picture>
 <main class="page--content">
   <div class="container container--content">
