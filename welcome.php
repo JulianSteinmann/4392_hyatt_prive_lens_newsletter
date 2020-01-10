@@ -30,9 +30,7 @@ include "template_parts/header.php" ?>
       <p>Hyatt Privé travel advisors are the number-one bookers of suites. In fact, you book our highest average daily rates worldwide! Thanks to you, we’re able to welcome the world’s elite travelers and deliver on Hyatt’s our purpose -- to care for people so they can be their best -- every day. </p>
       <p>That purpose extends to you, of course. After all, we’re launching Hyatt Privé Lens with you in mind.</p>
     </section>
-    <div class="bg-image--content bg-image--content--top-right">
-      <img src="img/welcome_global_p047_lifestyle_entrance_couple_walking.jpg" alt="">
-    </div>
+
     <section class="content-section content-section--left">
       <h2>In This Volume</h2>
       <p>We have some exciting stories to share in this first volume of Hyatt Privé Lens. As 2020 approaches, we’re celebrating a number of milestones including growth of our Luxury & Lifestyle brands, and the 40th anniversary of Park Hyatt.</p>
