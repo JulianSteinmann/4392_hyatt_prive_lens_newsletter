@@ -1,6 +1,6 @@
 <?php
-$page_description = "Welcome - Hyatt Privé Lense";
 $page_title = "Welcome - Hyatt Privé Lense";
+$page_description = "Welcome to Hyatt Privé Lens, a new online journal curated exclusively for you, the premium travel designer. Within these digital 'pages' you’ll find a few of the latest stories from our brands and colleagues around the world.";
 $next_page = "celebrate_park_hyatt.php";
 include "template_parts/header.php" ?>
 

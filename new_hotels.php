@@ -1,6 +1,6 @@
 <?php
-$page_description = "Welcome - Hyatt Privé Lense";
-$page_title = "Welcome - Hyatt Privé Lense";
+$page_title = "New Openings - Hyatt Privé Lense";
+$page_description = "What do cosmopolitan capitals, trendy waterfront neighborhoods, and the world’s most iconic man-made island have in common? All are home to some of Hyatt’s most exciting new hotels worldwide.";
 $next_page = "hyatt_ski_resorts.php";
 include "template_parts/header.php" ?>
 

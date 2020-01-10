@@ -1,6 +1,6 @@
 <?php
-$page_description = "Alila & Sustainability - Hyatt Privé Lense";
-$page_title = "Welcome - Hyatt Privé Lense";
+$page_title = "Alila & Sustainability - Hyatt Privé Lense";
+$page_description = "In Bahasa Indonesia, cinta Alam means 'Love of Earth.' This concept is at the heart of everything at Alila Seminyak, where glass water bottles become sleek drinkware and discarded coconuts find new life as organic planters.";
 $next_page = "new_hotels.php";
 include "template_parts/header.php" ?>
 
