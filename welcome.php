@@ -9,7 +9,7 @@ include "template_parts/header.php" ?>
   <source media="(min-width: 1500px)" srcset="img/welcome_ph_p052_resort_celebration_xl.jpg">
   <source media="(min-width: 1200px)" srcset="img/welcome_ph_p052_resort_celebration_l.jpg">
   <source media="(min-width: 900px)" srcset="img/welcome_ph_p052_resort_celebration_m.jpg">
-  <img src="img/welcome_ph_p052_resort_celebration_s.jpg" class="banner__img" width="100%" alt="Hyatt Privé Lens – Banner">
+  <img src="img/welcome_ph_p052_resort_celebration_s.jpg" class="header__img" width="100%" alt="Hyatt Privé Lens – Banner">
 </picture>
 <main class="page--content">
   <div class="container container--content">

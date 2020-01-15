@@ -8,7 +8,7 @@ include "template_parts/header.php" ?>
   <source media="(min-width: 1500px)" srcset="img/alila_dpsau_p001_infinity_pool_xl.jpg">
   <source media="(min-width: 1200px)" srcset="img/alila_dpsau_p001_infinity_pool_l.jpg">
   <source media="(min-width: 900px)" srcset="img/alila_dpsau_p001_infinity_pool_m.jpg">
-  <img src="img/alila_dpsau_p001_infinity_pool_s.jpg" class="banner__img" width="100%" alt="Hyatt Privé Lens – Banner">
+  <img src="img/alila_dpsau_p001_infinity_pool_s.jpg" class="header__img" width="100%" alt="Hyatt Privé Lens – Banner">
 </picture>
 <main class="page--content">
   <div class="container container--content">
