@@ -19,7 +19,7 @@ function is_hotel_open($opening_date, $text_closed, $text_open) {
   <source media="(min-width: 1500px)" srcset="img/new_hotels_lhrub_p002_exterior_evening_xl.jpg">
   <source media="(min-width: 1200px)" srcset="img/new_hotels_lhrub_p002_exterior_evening_l.jpg">
   <source media="(min-width: 900px)" srcset="img/new_hotels_lhrub_p002_exterior_evening_m.jpg">
-  <img src="img/new_hotels_lhrub_p002_exterior_evening_s.jpg" class="banner__img" width="100%" alt="Hyatt Privé Lens – Banner">
+  <img src="img/new_hotels_lhrub_p002_exterior_evening_s.jpg" class="header__img" width="100%" alt="Hyatt Privé Lens – Banner">
 </picture>
 <main class="page--content">
   <div class="container container--content">

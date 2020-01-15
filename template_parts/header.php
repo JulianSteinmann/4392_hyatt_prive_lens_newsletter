@@ -85,11 +85,18 @@
 
 <header>
   <div class="banner">
-    <picture>
+
+
+    <?php if (isset($_SERVER['HTTP_USER_AGENT']) && ( (strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE') !== false ) || (strpos($_SERVER['HTTP_USER_AGENT'], 'Trident/7.0; rv:11.0') !== false) ) ) { ?>
+      <!-- is IE 11 or below -->
+      <img src="img/banner-s.jpg" class="banner__img" style="width: 383px" width="383" alt="Hyatt Privé Lens – Banner">
+    <?php } else { ?>
+      <picture>
       <source media="(min-width: 1200px)" srcset="img/banner-l.jpg">
-        <source media="(min-width: 700px)" srcset="img/banner.jpg">
+      <source media="(min-width: 700px)" srcset="img/banner.jpg">
       <img src="img/banner-s.jpg" class="banner__img" alt="Hyatt Privé Lens – Banner">
-    </picture>
+      </picture>
+    <?php } ?>
 
 
 

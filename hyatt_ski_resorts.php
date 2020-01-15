@@ -8,7 +8,7 @@ include "template_parts/header.php" ?>
   <source media="(min-width: 1500px)" srcset="img/ski_resorts_shutterstock_1187224183_xl.jpg">
   <source media="(min-width: 1200px)" srcset="img/ski_resorts_shutterstock_1187224183_l.jpg">
   <source media="(min-width: 900px)" srcset="img/ski_resorts_shutterstock_1187224183_m.jpg">
-  <img src="img/ski_resorts_shutterstock_1187224183_s.jpg" class="banner__img" width="100%" alt="Hyatt Privé Lens – Banner">
+  <img src="img/ski_resorts_shutterstock_1187224183_s.jpg" class="header__img" width="100%" alt="Hyatt Privé Lens – Banner">
 </picture>
 <main class="page--content">
   <div class="container container--content">
