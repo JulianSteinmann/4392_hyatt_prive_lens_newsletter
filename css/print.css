@@ -1,0 +1,72 @@
+body {
+  background: #fff;
+}
+
+.content-section, .card--home {
+  break-before: avoid;
+  break-inside: avoid;
+  break-after: auto;
+  transform: none;
+  margin: 0;
+  width: 100%;
+  margin: 20px 0 20px 0 ;
+ }
+img {   break-inside: avoid; }
+.bg-image--content, .bg-image {
+  height: auto;
+  break-before: auto;
+  break-inside: avoid;
+  break-after: avoid;
+  transform: none;
+  margin: 0;
+}
+footer {
+  display: none;
+}
+.card--content, .page--index > .container {
+  display: block;
+  column-count: 2;
+  width: auto;
+  box-sizing: border-box;
+  margin: 20px;
+  column-fill: auto;
+}
+.page--index > .container {
+  column-count: 3;
+  margin: 20px;
+}
+h1 {
+  font-weight: 300;
+  color: #002f50;
+  font-size: 35px;
+}
+h2 {
+  font-weight: 300;
+  color: #002f50;
+  font-size: 28px;
+}
+h3{
+  font-size: 26px;
+}
+body {
+  line-height: 130%;
+  font-size: 14px;
+}
+
+
+.content-section + .bg-image--content, .card--home + .bg-image {
+  margin-botttom: 0;
+}
+.bg-image--content ~ .content-section, .bg-image ~ .card--home {
+  margin-top: 0;
+}
+.content-section:first-child {
+  column-span: all;
+
+}
+/* .content-section + .bg-image--content::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  clear: both;
+} */
