@@ -80,7 +80,44 @@
 
 <body>
   <!--[if IE]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <p class="browserupgrade">You are using an outdated browser. Please upgrade your browser to improve your experience and security.</p>
+    <style>
+    .browserupgrade {
+      text-align: center;
+      background-color: #b04431;
+      padding: 30px;
+      color: #ffffff;
+    }
+    .banner__logo {
+       margin: 32px;
+    }
+    .navbar-nav{ background-color: #333333; color #fff; }
+    .card-\-content {
+      margin: 0 30px 0;
+    }
+    .card-\-home {
+      margin: 0 30px 0;
+    }
+    .navbar-nav a {
+      display: inline;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .navbar-nav .nav-item:last-child a {
+      display: inline;
+      margin: 0 auto;
+    }
+    .navbar-nav .nav-item:first-child {
+      display: none;
+    }
+    .navbar-nav .nav-item:last-child {
+      width: 100%;
+      text-align: center;
+    }
+    .container {
+      max-width: 90%;
+    }
+    </style>
   <![endif]-->
 <div class="page-wrapper">
 

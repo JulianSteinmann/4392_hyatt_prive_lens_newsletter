@@ -539,13 +539,7 @@ a.footer__next-page:hover, a.footer__next-page:active  {
     height: 20px;
     z-index: 1;
     overflow: visible;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    displauy: block
   }
   .bg-image--content img {
     max-width: 100%;
