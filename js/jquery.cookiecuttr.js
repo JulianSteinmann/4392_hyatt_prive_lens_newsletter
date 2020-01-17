@@ -16,9 +16,9 @@
  * DAMAGES ARISING OUT OF ANY USE OF THE SOFTWARE OR DOCUMENTATION.
  *
  * You should have received a copy of the GNU General Public License
- * along with this program. If not, see <http://gnu.org/licenses/>.
+ * along with this program. If not, see <https://gnu.org/licenses/>.
 
- Documentation available at http://cookiecuttr.com
+ Documentation available at https://cookiecuttr.com
 
  */
 (function ($) {
