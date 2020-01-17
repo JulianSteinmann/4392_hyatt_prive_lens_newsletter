@@ -4,13 +4,14 @@ $page_description = "Is it the thrill of racing down a winding ski run or catchi
 $next_page = "index.php";
 include "template_parts/header.php" ?>
 
-<picture>
-  <source media="(min-width: 1500px)" srcset="img/ski_resorts_shutterstock_1187224183_xl.jpg">
-  <source media="(min-width: 1200px)" srcset="img/ski_resorts_shutterstock_1187224183_l.jpg">
-  <source media="(min-width: 900px)" srcset="img/ski_resorts_shutterstock_1187224183_m.jpg">
-  <img src="img/ski_resorts_shutterstock_1187224183_s.jpg" class="header__img" width="100%" alt="Hyatt Privé Lens – Banner">
-</picture>
+
 <main class="page--content">
+  <picture>
+    <source media="(min-width: 1500px)" srcset="img/ski_resorts_shutterstock_1187224183_xl.jpg">
+    <source media="(min-width: 1200px)" srcset="img/ski_resorts_shutterstock_1187224183_l.jpg">
+    <source media="(min-width: 900px)" srcset="img/ski_resorts_shutterstock_1187224183_m.jpg">
+    <img src="img/ski_resorts_shutterstock_1187224183_s.jpg" class="header__img" width="100%" alt="Hyatt Privé Lens – Banner">
+  </picture>
   <div class="container container--content">
 
   <div class="card--content fade-contents">
@@ -32,13 +33,13 @@ include "template_parts/header.php" ?>
     <div class="bg-image--content bg-image--content--top-right">
       <img src="img/ski_resorts_tvllt_p098_exterior_with_pool.jpg" alt="">
     </div>
-    <section class="content-section content-section--left bg-image--content--below-right">
+    <section class="content-section content-section--left ">
       <h2>An upscale mountain retreat tucked beside Lake Tahoe</h2>
       <p>Tucked within the Sierra Nevada mountains, <a href="https://www.hyatt.com/en-US/hotel/nevada/hyatt-regency-lake-tahoe-resort-spa-and-casino/tvllt?src=corp_lclb_gmb_seo_nam_tvllt" class="content-link" target="_blank">Hyatt Regency Lake Tahoe Resort</a> is a blissful lakeside retreat year-round. Winter, though, is nothing short of magical. Complimentary shuttle service connects the hotel to Diamond Peak Ski Resort, just two miles away. There’s terrain suitable for all levels, but it’s the sweeping, scenic Lake Tahoe views that keep skiers coming back season after season.</p>
       <p>No sun? No problem. If the snow’s falling, guests can avoid the winter chill and enter the hotel’s heated pool from inside. Exquisite culinary offerings can also be found within the resort. The menu at Lone Eagle Grille is carefully curated with local flavors of the high-Sierra, like fresh seafood, game meats, and creative vegetarian dishes.</p>
   </section>
 
-  <div class="bg-image--content bg-image--content--bottom-left">
+  <div class="bg-image--content bg-image--content--top-left bg-image--content--outside">
     <img src="img/ski_resorts_cmfct_p059_resort_view.jpg" alt="">
   </div>
   <section class="content-section content-section--middle">
@@ -47,6 +48,9 @@ include "template_parts/header.php" ?>
     <p>When it comes to high-altitude adrenaline, La Rosière has guests covered. From heli-skiing to night sledging, this ski-in, ski-out resort boasts more than enough Alpine adventures to get the blood pumping. We’ll let you in on another secret: The sunny terrace at H40 is the place to après-ski and be seen. La Rosière receives as many hours of daily sunshine as St. Tropez and Cannes.</p>
   </section>
 
+  <div class="bg-image--content bg-image--content--bottom-left">
+    <img src="img/ski_resorts_ctsph_r009_lounge.jpg" alt="">
+  </div>
   <section class="content-section content-section--right bg-image--content--below-left">
     <h2>Perfect powder and Michelin-starred dining in Niseko</h2>
     <p>Now accepting bookings from January 2020, <a href="https://www.hyatt.com/ja-JP/hotel/japan/park-hyatt-niseko-hanazono/ctsph" class="content-link" target="_blank">Park Hyatt Niseko Hanazono</a> is an unrivaled luxury mountain resort in the “St. Moritz of Japan.” Niseko, located on Japan’s northernmost island, is favored by the global jet set thanks to heavy snowfall, hot springs, and haute cuisine. The world’s freshest powder makes this a veritable winter wonderland, featuring over 70 runs and off-piste slopes spanning from Mount Annapuri to Hanazono.</p>

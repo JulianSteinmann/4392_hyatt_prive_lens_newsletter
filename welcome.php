@@ -5,13 +5,13 @@ $next_page = "celebrate_park_hyatt.php";
 include "template_parts/header.php" ?>
 
 
-<picture>
-  <source media="(min-width: 1500px)" srcset="img/welcome_ph_p052_resort_celebration_xl.jpg">
-  <source media="(min-width: 1200px)" srcset="img/welcome_ph_p052_resort_celebration_l.jpg">
-  <source media="(min-width: 900px)" srcset="img/welcome_ph_p052_resort_celebration_m.jpg">
-  <img src="img/welcome_ph_p052_resort_celebration_s.jpg" class="header__img" width="100%" alt="Hyatt Privé Lens – Banner">
-</picture>
 <main class="page--content">
+  <picture>
+    <source media="(min-width: 1500px)" srcset="img/welcome_ph_p052_resort_celebration_xl.jpg">
+    <source media="(min-width: 1200px)" srcset="img/welcome_ph_p052_resort_celebration_l.jpg">
+    <source media="(min-width: 900px)" srcset="img/welcome_ph_p052_resort_celebration_m.jpg">
+    <img src="img/welcome_ph_p052_resort_celebration_s.jpg" class="header__img" width="100%" alt="Hyatt Privé Lens – Banner">
+  </picture>
   <div class="container container--content">
 
   <div class="card--content fade-contents">

@@ -4,13 +4,14 @@ $page_description = "We are delighted to celebrate 40 years of our Park Hyatt br
 $next_page = "alila_sustainability.php";
 include "template_parts/header.php" ?>
 
-<picture>
-  <source media="(min-width: 1500px)" srcset="img/celebrate_nycph_p616_manhattan_sky_suite_master_bedroom_xl.jpg">
-  <source media="(min-width: 1200px)" srcset="img/celebrate_nycph_p616_manhattan_sky_suite_master_bedroom_l.jpg">
-  <source media="(min-width: 900px)" srcset="img/celebrate_nycph_p616_manhattan_sky_suite_master_bedroom_m.jpg">
-  <img src="img/celebrate_nycph_p616_manhattan_sky_suite_master_bedroom_s.jpg" class="header__img" width="100%" alt="Hyatt Privé Lens – Banner">
-</picture>
+
 <main class="page--content">
+  <picture>
+    <source media="(min-width: 1500px)" srcset="img/celebrate_nycph_p616_manhattan_sky_suite_master_bedroom_xl.jpg">
+    <source media="(min-width: 1200px)" srcset="img/celebrate_nycph_p616_manhattan_sky_suite_master_bedroom_l.jpg">
+    <source media="(min-width: 900px)" srcset="img/celebrate_nycph_p616_manhattan_sky_suite_master_bedroom_m.jpg">
+    <img src="img/celebrate_nycph_p616_manhattan_sky_suite_master_bedroom_s.jpg" class="header__img" width="100%" alt="Hyatt Privé Lens – Banner">
+  </picture>
   <div class="container container--content">
 
   <div class="card--content fade-contents">
