@@ -2,6 +2,7 @@
 $page_title = "Hyatt Ski Resorts - Hyatt Privé Lens";
 $page_description = "Is it the thrill of racing down a winding ski run or catching a moment of serenity atop an Alpine peak? Many are simply in it for the après—pulling off those snow boots and sipping a steaming mug of mulled wine beside a cozy chalet fire.";
 $next_page = "index.php";
+$pdf_file_name = "hyatt-prive-lense-v1-ski.pdf";
 include "template_parts/header.php" ?>
 
 

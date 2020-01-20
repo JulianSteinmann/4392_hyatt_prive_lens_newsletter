@@ -2,6 +2,7 @@
 $page_title = "40 Years Park Hyatt - Hyatt Privé Lens";
 $page_description = "We are delighted to celebrate 40 years of our Park Hyatt brand -- four decade of exceptional service, renowned art and architecture, rare culinary experiences, and unexpected pleasures.";
 $next_page = "alila_sustainability.php";
+$pdf_file_name = "hyatt-prive-lense-v1-parkhyatt.pdf";
 include "template_parts/header.php" ?>
 
 

@@ -2,6 +2,7 @@
 $page_title = "Hyatt Privé Lens";
 $page_description = "Welcome to Hyatt Privé Lens";
 $next_page = "welcome.php";
+$pdf_file_name = "hyatt-prive-lense-v1-all.pdf";
 include "template_parts/header.php" ?>
 
 
@@ -82,6 +83,7 @@ include "template_parts/header.php" ?>
     </div>
 
   </div>
+
 </main>
 
 <?php include "template_parts/footer.php" ?>

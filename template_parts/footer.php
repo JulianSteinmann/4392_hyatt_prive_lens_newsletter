@@ -3,9 +3,12 @@
 
 <footer class="ui-footer">
   <section class="helpline">
+
+
     <h4>Need Reservation Support?</h4>
     <button type="button" class="call-us-button">Call us</button>
-        <a class="footer__next-page" href="<?php echo $next_page ?>" role="button">
+    <a href="pdf/<?php echo $pdf_file_name ?>" class="footer__pdf"  download>DOWNLOAD PDF</a>
+    <a class="footer__next-page" href="<?php echo $next_page ?>" role="button">
             NEXT <i class="fas fa-arrow-right"></i>
         </a>
   </section>

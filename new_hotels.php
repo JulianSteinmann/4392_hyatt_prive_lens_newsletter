@@ -2,6 +2,7 @@
 $page_title = "New Openings - Hyatt Privé Lens";
 $page_description = "What do cosmopolitan capitals, trendy waterfront neighborhoods, and the world’s most iconic man-made island have in common? All are home to some of Hyatt’s most exciting new hotels worldwide.";
 $next_page = "hyatt_ski_resorts.php";
+$pdf_file_name = "hyatt-prive-lense-v1-new_hotels.pdf";
 include "template_parts/header.php" ?>
 
 <?php // Helper function to change text once hotels are open
