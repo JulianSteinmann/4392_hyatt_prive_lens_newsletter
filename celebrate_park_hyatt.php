@@ -18,14 +18,14 @@ include "template_parts/header.php" ?>
   <div class="card--content fade-contents">
 
     <section class="content-section">
-      <h5>VOLUME ONE</h5>
+      <h5>A BRAND STORY</h5>
       <h1>Celebrating 40 Years of Park Hyatt</h1>
       <p>We are delighted to celebrate 40 years of our Park Hyatt brand -- four decade of exceptional service, renowned art and architecture, rare culinary experiences, and unexpected pleasures. Discerning travelers know that true luxury is personal—whether it’s an animated discussion of modern art over an aged, single-malt scotch or an intimate lesson in delicate Japanese calligraphy. Park Hyatt hotels specialize in these sophisticated connections.</p>
     </section>
 
     <div class="bg-image--content bg-image--content--top-right">
       <img src="img/celebrate_jaypritzner.jpg" alt="">
-      <a href="https://videos.hyatt.com/park_hyatt_Pritzker.mp4" target="_blank"class="text-center">Watch the interview</a>
+      <a href="https://videos.hyatt.com/park_hyatt_Pritzker.mp4" target="_blank"class="text-center" style="width: 100%; text-align: center !important; display: inline-block" >Watch the interview</a>
     </div>
     <section class="content-section content-section--left bg-image--content--below-right">
       <h2>The Vision</h2>
