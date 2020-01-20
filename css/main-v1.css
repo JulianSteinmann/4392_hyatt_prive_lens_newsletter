@@ -382,7 +382,7 @@ p {
             transform: translateX(-50%);
   }
   .card--home--top-right, .card--home--bottom-right {
-    text-align: right;
+    text-align: left;
     -webkit-transform: translateX(50%);
         -ms-transform: translateX(50%);
             transform: translateX(50%);
@@ -402,7 +402,7 @@ p {
             transform: translateX(-58%);
   }
   .card--home--top-right, .card--home--bottom-right {
-    text-align: right;
+    text-align: left;
     -webkit-transform: translateX(58%);
         -ms-transform: translateX(58%);
             transform: translateX(58%);
