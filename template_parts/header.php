@@ -139,7 +139,7 @@
 
 
     <div class="banner__overlay">
-      <a href="index.php">
+      <a href="./">
         <img src="img/hyatt-prive-logo.png" class="banner__logo" alt="Hyatt Privé Lens – Banner">
       </a>
     </div>
@@ -151,7 +151,7 @@
             <i class="fas fa-bars open-icon"></i><i class="fas fa-times close-icon"></i> MENU
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="index.php">Home</a>
+            <a class="dropdown-item" href="./">Home</a>
             <a class="dropdown-item" href="welcome.php">Welcome to Hyatt Privé Lens</a>
             <a class="dropdown-item" href="celebrate_park_hyatt.php">Celebrating 40 Years of Park Hyatt</a>
             <a class="dropdown-item" href="alila_sustainability.php">Alila & Sustainability</a>
