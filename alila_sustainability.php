@@ -5,7 +5,6 @@ $next_page = "new_hotels.php";
 $pdf_file_name = "hyatt-prive-lense-v1-alila.pdf";
 include "template_parts/header.php" ?>
 
-
 <main class="page--content">
   <picture>
     <source media="(min-width: 1500px)" srcset="img/alila_dpsau_p001_infinity_pool_xl.jpg">

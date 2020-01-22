@@ -654,28 +654,10 @@ a.cc-cookie-decline { color: #ccc; border: 1px solid #ccc; }
 }
 
 
-
-
-
-
-
-
-
-
-
 @-webkit-keyframes fade-in {
     from {opacity: 0; }
     to {opacity: 1;}
 }
-
-
-
-
-
-
-
-
-
 
 
 @keyframes fade-in {

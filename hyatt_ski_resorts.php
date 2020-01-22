@@ -5,7 +5,6 @@ $next_page = "index.php";
 $pdf_file_name = "hyatt-prive-lense-v1-ski.pdf";
 include "template_parts/header.php" ?>
 
-
 <main class="page--content">
   <picture>
     <source media="(min-width: 1500px)" srcset="img/ski_resorts_shutterstock_1187224183_xl.jpg">

@@ -16,7 +16,6 @@ function is_hotel_open($opening_date, $text_closed, $text_open) {
 }
 ?>
 
-
 <main class="page--content">
   <picture>
     <source media="(min-width: 1500px)" srcset="img/new_hotels_lhrub_p002_exterior_evening_xl.jpg">
