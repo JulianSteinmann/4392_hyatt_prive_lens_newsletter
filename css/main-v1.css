@@ -17,6 +17,7 @@ body {
 
 .page-wrapper {
   min-height: 100vh;
+  margin-bottom: 100px;
 }
 
 /*  NAV ================================================================== */
@@ -421,7 +422,7 @@ footer {
   height: 50px;
   width: 100%;
   color: #333;
-  margin-top: 120px;
+  margin-top: 30px;
 }
 .helpline {
   background-color: #282828;
@@ -439,6 +440,7 @@ footer {
     border: 1px solid #fff;
     font-size: 16px;
     min-height: 25px;
+    text-decoration: none;
     min-width: 150px;
     text-transform: uppercase;
     -webkit-user-select: none;
@@ -452,6 +454,32 @@ footer {
     cursor: pointer;
     overflow: visible;
 }
+.footer__top { text-align: center; }
+.footer__prive-link, .footer__prive-link a{ font-size: 12px;}
+a.footer__pdf, a.footer__pdf:visited {
+  color: #333;
+  text-decoration: none;
+  display: inline-block;
+  border: 1px solid #333;
+  padding: 3px 20px;
+}
+a.footer__pdf:hover, a.footer__pdf:active,
+a.footer__next-page:hover, a.footer__next-page:active   {
+  color: #666;
+  border: 1px solid #666;
+}
+
+@media screen and (min-width: 900px) {
+  .footer__top {
+    display: flex;
+    justify-content: space-between;
+    margin: 32px;
+    align-content: center;
+    align-items: center;
+  }
+}
+
+
 .hbe-legal {
     background-color: #000;
     text-align: center;
@@ -483,13 +511,7 @@ a.footer__next-page, a.footer__next-page:visited {
   color: rgba(255,255,255,.5);
   text-decoration: none;
 }
-a.footer__pdf {
-  position: absolute;
-  left: 32px;
-  color: rgba(255,255,255,.5);
-  text-decoration: none;
-}
-a.footer__pdf:hover, a.footer__pdf:active,
+
 a.footer__next-page:hover, a.footer__next-page:active   {
   color: rgba(255,255,255,.75);
 }
