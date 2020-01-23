@@ -12,12 +12,15 @@
   gtag('config', 'UA-155853964-1');
 </script>
 
-
-
   <meta charset="utf-8">
   <title><?php echo $page_title ?></title>
   <meta name="description" content="<?php echo $page_description ?>">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Prevent most search engine web crawlers from indexing a page -->
+  <meta name="robots" content="noindex">
+  <!-- Prevent Google web crawlers from indexing -->
+  <meta name="googlebot" content="noindex">
 
   <link rel="manifest" href="site.webmanifest">
 
